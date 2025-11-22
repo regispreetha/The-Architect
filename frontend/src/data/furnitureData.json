@@ -1,0 +1,207 @@
+{
+  "furniture": [
+    {
+      "id": "bed-queen",
+      "name": "Queen Bed",
+      "category": "Bedroom",
+      "width": 60,
+      "height": 80,
+      "widthFeet": 5,
+      "lengthFeet": 6.67,
+      "icon": "🛏️",
+      "color": "#8B4513"
+    },
+    {
+      "id": "bed-king",
+      "name": "King Bed",
+      "category": "Bedroom",
+      "width": 76,
+      "height": 80,
+      "widthFeet": 6.33,
+      "lengthFeet": 6.67,
+      "icon": "🛏️",
+      "color": "#8B4513"
+    },
+    {
+      "id": "sofa-3seat",
+      "name": "3-Seat Sofa",
+      "category": "Living Room",
+      "width": 84,
+      "height": 36,
+      "widthFeet": 7,
+      "lengthFeet": 3,
+      "icon": "🛋️",
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "dining-table-rect",
+      "name": "Rectangular Dining Table",
+      "category": "Dining Room",
+      "width": 72,
+      "height": 36,
+      "widthFeet": 6,
+      "lengthFeet": 3,
+      "icon": "🪑",
+      "color": "#654321"
+    },
+    {
+      "id": "dining-table-round",
+      "name": "Round Dining Table",
+      "category": "Dining Room",
+      "width": 48,
+      "height": 48,
+      "widthFeet": 4,
+      "lengthFeet": 4,
+      "icon": "⭕",
+      "color": "#654321"
+    },
+    {
+      "id": "chair",
+      "name": "Chair",
+      "category": "General",
+      "width": 18,
+      "height": 18,
+      "widthFeet": 1.5,
+      "lengthFeet": 1.5,
+      "icon": "🪑",
+      "color": "#654321"
+    },
+    {
+      "id": "desk",
+      "name": "Desk",
+      "category": "Office",
+      "width": 60,
+      "height": 30,
+      "widthFeet": 5,
+      "lengthFeet": 2.5,
+      "icon": "🖥️",
+      "color": "#654321"
+    },
+    {
+      "id": "refrigerator",
+      "name": "Refrigerator",
+      "category": "Kitchen",
+      "width": 36,
+      "height": 30,
+      "widthFeet": 3,
+      "lengthFeet": 2.5,
+      "icon": "🧊",
+      "color": "#C0C0C0"
+    },
+    {
+      "id": "stove",
+      "name": "Stove",
+      "category": "Kitchen",
+      "width": 30,
+      "height": 30,
+      "widthFeet": 2.5,
+      "lengthFeet": 2.5,
+      "icon": "🔥",
+      "color": "#404040"
+    },
+    {
+      "id": "sink",
+      "name": "Kitchen Sink",
+      "category": "Kitchen",
+      "width": 33,
+      "height": 22,
+      "widthFeet": 2.75,
+      "lengthFeet": 1.83,
+      "icon": "🚰",
+      "color": "#C0C0C0"
+    },
+    {
+      "id": "bathtub",
+      "name": "Bathtub",
+      "category": "Bathroom",
+      "width": 60,
+      "height": 30,
+      "widthFeet": 5,
+      "lengthFeet": 2.5,
+      "icon": "🛁",
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "toilet",
+      "name": "Toilet",
+      "category": "Bathroom",
+      "width": 20,
+      "height": 28,
+      "widthFeet": 1.67,
+      "lengthFeet": 2.33,
+      "icon": "🚽",
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "shower",
+      "name": "Shower",
+      "category": "Bathroom",
+      "width": 36,
+      "height": 36,
+      "widthFeet": 3,
+      "lengthFeet": 3,
+      "icon": "🚿",
+      "color": "#E0E0E0"
+    },
+    {
+      "id": "washer",
+      "name": "Washer",
+      "category": "Laundry",
+      "width": 27,
+      "height": 27,
+      "widthFeet": 2.25,
+      "lengthFeet": 2.25,
+      "icon": "🌀",
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "dryer",
+      "name": "Dryer",
+      "category": "Laundry",
+      "width": 27,
+      "height": 27,
+      "widthFeet": 2.25,
+      "lengthFeet": 2.25,
+      "icon": "♨️",
+      "color": "#FFFFFF"
+    }
+  ],
+  "symbols": [
+    {
+      "id": "door-single",
+      "name": "Single Door",
+      "category": "Doors",
+      "width": 36,
+      "widthFeet": 3,
+      "icon": "🚪",
+      "type": "door"
+    },
+    {
+      "id": "door-double",
+      "name": "Double Door",
+      "category": "Doors",
+      "width": 72,
+      "widthFeet": 6,
+      "icon": "🚪🚪",
+      "type": "door"
+    },
+    {
+      "id": "window-single",
+      "name": "Single Window",
+      "category": "Windows",
+      "width": 36,
+      "widthFeet": 3,
+      "icon": "🪟",
+      "type": "window"
+    },
+    {
+      "id": "window-double",
+      "name": "Double Window",
+      "category": "Windows",
+      "width": 72,
+      "widthFeet": 6,
+      "icon": "🪟🪟",
+      "type": "window"
+    }
+  ]
+}
