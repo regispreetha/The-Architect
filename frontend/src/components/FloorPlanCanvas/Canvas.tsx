@@ -87,8 +87,8 @@ export default function FloorPlanCanvas({ selectedTool }: CanvasProps) {
     const height = canvas.getHeight()
 
     // Remove existing grid
-    const existingGrid = canvas.getObjects().filter((obj: any) => obj.isGrid)
-    existingGrid.forEach((obj) => canvas.remove(obj))
+    const existingGrid = canvas.getObjects().filter((obj: any) => (obj as any).isGrid)
+    existingGrid.forEach((obj: any) => canvas.remove(obj))
 
     // Draw vertical lines
     for (let i = 0; i < width / size; i++) {

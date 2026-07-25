@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { Box, IconButton, ButtonGroup, Tooltip } from '@mui/material'
-import { Visibility, VisibilityOff, Refresh, CameraAlt } from '@mui/icons-material'
+import { Visibility, Refresh, CameraAlt } from '@mui/icons-material'
 import { useFloorPlanStore } from '../../store/floorPlanStore'
 
 export default function Viewer3D() {

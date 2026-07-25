@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { fabric } from 'fabric'
+import type { fabric } from 'fabric'
 
 export interface FloorPlanElement {
   id: string
